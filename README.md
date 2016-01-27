@@ -2,8 +2,8 @@
 
 ## What is rock.converter?
 
-rock.converter is a project which aims to convert between different 3D formats to rock custom JSON format (although at this moment only OBJ is supported).
-rock.game.js has utilities to load 3D models using this custom JSON format.
+rock.converter is a project which aims to convert between different 3D formats to rock custom JSON 3D format (although at this moment only OBJ is supported).
+[rock.game.js](https://github.com/lajimenez/rock.game.js) has utilities to load 3D models using this custom JSON format.
 rock.converter is a java project that generates an executable jar.
 
 ## How to convert between formats
@@ -56,8 +56,8 @@ rock.converter generates a JSON that contain an array of objects like:
 
 ### Textures
 
-rock.game.js is able to create models since this JSON. However, how are textures treated?
-If you want to use rock.game.js utilities, you have to assure that there will be a texture image resource identified by the value in the JSON (it's highly recommended to see how test application load resources in this project to make things clear).
+rock.game.js is able to load models from this JSON. However, how are textures treated?
+If you want to use rock.game.js utilities, you have to assure that there will be a texture image resource identified by the value in the JSON (it's highly recommended to see how test application load resources and models in [rock.game.js](https://github.com/lajimenez/rock.game.js)).
 
 ### Other JSON resources
 
